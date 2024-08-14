@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
 import 'package:first_app/gradient_container.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(
@@ -7,9 +7,10 @@ void main() {
       home: Scaffold(
         body: GradientContainer(
           [
-            Color.fromARGB(255, 17, 0, 128),
-            Color.fromARGB(255, 75, 27, 186),
-            Colors.blue,
+            Color.fromARGB(255, 26, 0, 70),
+            Color.fromARGB(255, 63, 7, 159),
+            Colors.cyan,
+            Colors.orange,
           ],
         ),
       ),
