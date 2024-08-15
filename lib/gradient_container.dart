@@ -8,7 +8,6 @@ const endAlignment = Alignment.bottomRight;
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.colors, {super.key});
   final List<Color> colors;
-  
 
   @override
   Widget build(context) {
@@ -18,7 +17,7 @@ class GradientContainer extends StatelessWidget {
             colors: colors, begin: startAlignment, end: endAlignment),
       ),
       child: const Center(
-        child: RollDice(),
+        child: DiceRoller(),
       ),
     );
   }

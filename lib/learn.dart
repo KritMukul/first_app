@@ -10,7 +10,7 @@ void main() {
             Color.fromARGB(255, 26, 0, 70),
             Color.fromARGB(255, 63, 7, 159),
             Colors.cyan,
-            Colors.orange,
+            // Colors.orange,
           ],
         ),
       ),
